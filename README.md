@@ -1,5 +1,5 @@
 # PDF-Chat
-## Chat with your PDF docs - RAG Tool
+## Chat with your PDF - RAG Tool
 
 #### Are your PDF documents too long to read? 
 
@@ -112,6 +112,6 @@ if "messages" not in st.session_state:
 ```
 -----------
 ## Conclusion
-
+> MORE INFO TO BE ADDED
  
 
