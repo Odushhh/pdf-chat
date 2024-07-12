@@ -10,7 +10,7 @@
 ## **How it Works**
 -----------------------
 > The AI tool implements **Cohere's *Command R+* model** which is RAG-optimized to tackle huge workloads of unstructured data.
-<br>
+---
 > It is then utilised together with another **Cohere product: *embed-english-v3.0*** as the embedding model
 
 
