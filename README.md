@@ -1,13 +1,13 @@
-PDF-Chat
-# Chat with your PDF docs - RAG Tool
+#PDF-Chat
+## Chat with your PDF docs - RAG Tool
 
-Having PDF documents too long to read? This RAG-powered AI tool will help you scan through your PDF documents and get direct answers.
-> Ask anything regarding the files you uploaded and it retrieves answers instantly. 
+### Having PDF documents too long to read? This RAG-powered AI tool will help you scan through your PDF documents and get direct answers.
+### Ask anything regarding the files you uploaded and it retrieves answers instantly. 
 
-### No more reading through 1000+ page PDF documents! 
+> No more reading through 1000+ page PDF documents! 
 
 
-### **How it Works**
+## **How it Works**
 -----------------------
 > The AI tool implements **Cohere's *Command R+* model** which is RAG-optimized to tackle huge workloads of unstructured data.
 > It is then utilised together with another **Cohere product: *embed-english-v3.0*** as the embedding model
@@ -32,9 +32,9 @@ docs = loader.load_data()
 
 
 ## Chunking
-# > Involves breaking down large texts into smaller chunks or pieces. This function ofocurse includes a chunk size limit and chunk overlap, which prevents the output from being incomprehensible when concatenated.
-# > This usually depends on the embedding model to be used
-# > Chunking imporves retrieval speed and efficiency, as the problem is broken down into sub-problems for processing (Think of recursive algos)
+> Involves breaking down large texts into smaller chunks or pieces. This function ofocurse includes a chunk size limit and chunk overlap, which prevents the output from being incomprehensible when concatenated.
+> This usually depends on the embedding model to be used
+> Chunking imporves retrieval speed and efficiency, as the problem is broken down into sub-problems for processing (Think of recursive algos)
 
 ```
 from llama_index.core import SimpleDirectoryReader
