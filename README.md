@@ -17,7 +17,8 @@
 
 ### Custom Knowledge Base
 > RAG implementation requires a knowledge base (or even a database/dataset) to be the 'source of truth' from which it answers to a user's queries.
-> [More about the model]: (https://docs.cohere.com/docs/command-r-plus)
+
+[More on the LLM model]: (https://docs.cohere.com/docs/command-r-plus)
 
 ```
 from llama_index.core import SimpleDirectoryReader
@@ -56,8 +57,9 @@ docs = loader.load_data()
 ## Embeddings model
 > Refers to conversion of user input into numerical vectors that re better understood by computers, ML models.
 
-> Here, we use Cohere's *embed-english-v3.0* as the embedding model. 
-[More on the embedding model]: (https://cohere.com/blog/introducing-embed-v3)
+> Here, we use Cohere's *embed-english-v3.0* as the embedding model.
+
+[More on the model]: (https://cohere.com/blog/introducing-embed-v3)
 
 ```
 from llama_index.embeddings.cohere import CohereEmbedding
