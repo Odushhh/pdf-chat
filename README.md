@@ -1,11 +1,13 @@
 # PDF-Chat
 ## Chat with your PDF docs - RAG Tool
 
-#### Having PDF documents too long to read? This RAG-powered AI tool will help you scan through your PDF documents and get direct answers.
+#### Are your PDF documents too long to read? 
 
-#### Ask anything regarding the files you uploaded and it retrieves answers instantly. 
+> This RAG-powered AI tool will help you scan through your PDF documents and get direct answers.
 
-> No more reading through 1000+ page PDF documents! 
+#### Ask anything about your files and get answers instantly. 
+
+#### No more reading through 1000+ page PDF documents! 
 
 
 ## **How it Works**
