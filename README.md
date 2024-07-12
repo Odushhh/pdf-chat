@@ -10,7 +10,8 @@
 ## **How it Works**
 -----------------------
 > The AI tool implements **Cohere's *Command R+* model** which is RAG-optimized to tackle huge workloads of unstructured data.
----
+
+
 > It is then utilised together with another **Cohere product: *embed-english-v3.0*** as the embedding model
 
 
@@ -34,7 +35,9 @@ docs = loader.load_data()
 
 ## Chunking
 > Involves breaking down large texts into smaller chunks or pieces. This function ofocurse includes a chunk size limit and chunk overlap, which prevents the output from being incomprehensible when concatenated.
+
 > This usually depends on the embedding model to be used
+
 > Chunking imporves retrieval speed and efficiency, as the problem is broken down into sub-problems for processing (Think of recursive algos)
 
 ```
@@ -52,6 +55,7 @@ docs = loader.load_data()
 
 ## Embeddings model
 > Refers to conversion of user input into numerical vectors that re better understood by computers, ML models.
+
 > Here, we use Cohere's *embed-english-v3.0* as the embedding model. 
 [More on the embedding model]: (https://cohere.com/blog/introducing-embed-v3)
 
