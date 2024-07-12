@@ -50,8 +50,8 @@ docs = loader.load_data()
 
 
 ## Embeddings model
-# > Refers to conversion of user input into numerical vectors that re better understood by computers, ML models.
-# > Here, we use Cohere's *embed-english-v3.0* as the embedding model. 
+> Refers to conversion of user input into numerical vectors that re better understood by computers, ML models.
+> Here, we use Cohere's *embed-english-v3.0* as the embedding model. 
 [More on the embedding model]: (https://cohere.com/blog/introducing-embed-v3)
 
 ```
@@ -74,7 +74,7 @@ def load_embedding_model(model_name="facebook/bart-base"):
 
  
 ## Vector databases
-# > Storage for vectors that are a numerical representation of the user-generated input
+> Storage for vectors that are a numerical representation of the user-generated input
 
 ```
 from llama_index.core import VectorStoreIndex
@@ -83,7 +83,7 @@ from llama_index.core.storage.storage_context import StorageContext
 ```
 
 ## Conversational UI
-# > **Streamlit** offers a simplistic interface for the RAG tool for uploading files and asking questions in a messaging-like UI
+> **Streamlit** offers a simplistic interface for the RAG tool for uploading files and asking questions in a messaging-like UI
 
 ```
 import streamlit as st
@@ -103,11 +103,5 @@ if "messages" not in st.session_state:
 -----------
 ## Conclusion
 
-#### >Key features of the Cohere's Command R+ model
-    1. 128k-token context window
-    2. Advanced Retrieval Augmented Generation (RAG) with citation to reduce hallucinations
-    3. Multilingual coverage in 10 key languages
-    4. Tool Use to automate sophisticated business processes
-    
  
 
