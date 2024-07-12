@@ -1,21 +1,21 @@
-# PDF-Chat
-## Chat with your PDF docs - RAG Tool
+PDF-Chat
+# Chat with your PDF docs - RAG Tool
 
 Having PDF documents too long to read? This RAG-powered AI tool will help you scan through your PDF documents and get direct answers.
 > Ask anything regarding the files you uploaded and it retrieves answers instantly. 
 
-##### No more reading through 1000+ page PDF documents! 
+### No more reading through 1000+ page PDF documents! 
 
 
-## **How it Works**
+### **How it Works**
 -----------------------
-#### > The AI tool implements **Cohere's *Command R+* model** which is RAG-optimized to tackle huge workloads of unstructured data.
-#### > It is then utilised together with another **Cohere product: *embed-english-v3.0*** as the embedding model
+> The AI tool implements **Cohere's *Command R+* model** which is RAG-optimized to tackle huge workloads of unstructured data.
+> It is then utilised together with another **Cohere product: *embed-english-v3.0*** as the embedding model
 
 
 ### Custom Knowledge Base
 > RAG implementation requires a knowledge base (or even a database/dataset) to be the 'source of truth' from which it answers to a user's queries.
-[More about the model]: (https://docs.cohere.com/docs/command-r-plus)
+> [More about the model]: (https://docs.cohere.com/docs/command-r-plus)
 
 ```
 from llama_index.core import SimpleDirectoryReader
