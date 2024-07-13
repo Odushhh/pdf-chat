@@ -110,10 +110,22 @@ if "messages" not in st.session_state:
     reset_chat()
 
 ```
+
+
+
 ### PDF-Chat's Conversational UI
+
 ![Screenshot (36)](https://github.com/user-attachments/assets/647f6011-0d1e-46bf-8308-70fdadfde79e)
 
 -----------
+
+
+### How to use the PDF-Chat tool
+1. Get your Cohere API Key
+2. Upload your PDF document
+3. Chat w/ your PDF ! <sub>Ask literlly anything about the PDF</sub>
+   
+
 ## Conclusion
 > MORE INFO TO BE ADDED
  
