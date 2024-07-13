@@ -111,7 +111,8 @@ if "messages" not in st.session_state:
 
 ```
 ### PDF-Chat's Conversational UI
-[] (https://github.com/Odushhh/pdf-chat/blob/main/Screenshot%20(36).png)
+![Screenshot (36)](https://github.com/user-attachments/assets/647f6011-0d1e-46bf-8308-70fdadfde79e)
+
 -----------
 ## Conclusion
 > MORE INFO TO BE ADDED
