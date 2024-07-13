@@ -10,6 +10,12 @@
 #### No more reading through 1000+ page PDF documents! 
 
 
+## **How to use**
+1. Get your Cohere API Key. <sub>[Look here](https://dashboard.cohere.com/api-keys)</sub>
+2. Upload your PDF document
+3. Chat w/ your PDF ! <sub>Ask literlly anything about the PDF</sub>
+
+
 ## **How it Works**
 -----------------------
 > The AI tool implements **Cohere's *Command R+* model** which is RAG-optimized to tackle huge workloads of unstructured data.
@@ -118,12 +124,6 @@ if "messages" not in st.session_state:
 ![Screenshot (36)](https://github.com/user-attachments/assets/647f6011-0d1e-46bf-8308-70fdadfde79e)
 
 -----------
-
-
-### How to use the PDF-Chat tool
-1. Get your Cohere API Key
-2. Upload your PDF document
-3. Chat w/ your PDF ! <sub>Ask literlly anything about the PDF</sub>
    
 
 ## Conclusion
