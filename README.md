@@ -110,6 +110,8 @@ if "messages" not in st.session_state:
     reset_chat()
 
 ```
+### PDF-Chat's Conversational UI
+[] (https://github.com/Odushhh/pdf-chat/blob/main/Screenshot%20(36).png)
 -----------
 ## Conclusion
 > MORE INFO TO BE ADDED
