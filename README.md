@@ -11,9 +11,9 @@
 
 
 ## **How to use**
-1. Get your Cohere API Key. <sub>[Look here](https://dashboard.cohere.com/api-keys)</sub>
+1. Get your Cohere API Key. > [Get yours here](https://dashboard.cohere.com/api-keys)
 2. Upload your PDF document
-3. Chat w/ your PDF ! <sub>Ask literlly anything about the PDF</sub>
+3. Chat w/ your PDF!
 
 
 ## **How it Works**
